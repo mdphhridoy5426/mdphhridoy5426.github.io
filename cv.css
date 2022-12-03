@@ -1,0 +1,170 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #d1f3cf;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+.intro{
+    margin-left: 5%;
+    margin-top: 5%;
+}
+#name {
+    color: rgb(238, 139, 9);
+    font-size: 70px;
+    
+}
+
+
+.intro h1{
+    font-size: 50px;
+    color: #44b71b;
+    margin-bottom: 20px;
+}
+
+.intro p{
+    color: rgb(58, 187, 226);
+    line-height: 30px;
+    font-weight: 700;
+    font-size:30px ;
+}
+
+
+.slider{
+     overflow: hidden ;
+     margin: 0;  
+
+}
+.slider {
+    position: relative;
+    width: 200%;
+    
+    left: 0;
+    animation: 10s slider infinite;
+}
+.slider img{
+    height: 900px;
+   
+    display: flex;
+}
+.slider img{
+    float: left;
+    width: 50%;
+}
+@keyframes slider{
+
+    20%{
+        left: 0;
+    }
+    25%{
+        left: -100%;
+    }
+    45%{
+        left: -100%;
+    }
+    50%{
+        right: -200%;
+    }
+    70%{
+        right: -200%;
+    }
+    75%{
+        right: -200% ;
+    }
+    95%{
+        right:-200%;
+    }
+    100%{
+        right: -200%;
+    }
+}
+
+
+.edu2 b{
+    color: rgb(44, 40, 39);
+    background-color: rgb(9, 200, 233);
+    font-size:xx-large;
+    text-align: center;
+
+}
+#resume b{
+    font-size: xx-large;
+    color: rgb(44, 40, 39);
+    background-color: rgb(9, 200, 233);
+}
+#skill b{
+    color: rgb(44, 40, 39);
+    background-color: rgb(9, 200, 233);
+    font-size:xx-large;
+}
+#s{
+    margin: 1%;
+    font-size: 20px;
+    font-weight: bolder;
+}
+#s br{
+    margin: 2%;
+}
+#list1 li{
+    margin-left: 2%;
+    font-size:x-large;
+    font: bolder;
+    list-style-type: square;
+
+}
+.work b{
+    color: rgb(44, 40, 39);
+    background-color: rgb(9, 200, 233);
+    font-size:xx-large;
+   
+    
+}
+#work1{
+    margin: 2%;
+    list-style-type: circle;
+}
+.contact b{
+    color: rgb(44, 40, 39);
+    background-color: rgb(9, 200, 233);
+    font-size:xx-large;
+    
+}
+.contact_list{
+    list-style-type: none;
+    margin: 1%;
+}
+
+.to-top{
+    background-color: #51bddd;
+    position: fixed;
+    bottom: 20px;
+    right:10px;
+    height: 70px;
+    width: 70px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    border-radius: 0 0 10px black;
+    cursor: pointer;
+    transition: all .4s;
+
+}
+.p-value{
+    display: block;
+    height:calc(100%- 15px);
+    width:calc(100%- 15px);
+    background-color:  #51bddd;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    font-size: 30px;
+    color: rgb(124, 87, 218) ;
+    font-size: 30px;
+
+ } 
+
